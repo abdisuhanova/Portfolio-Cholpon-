@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <title>Cholpon</title>
+</head>
+
+<body>
+  <div id="nav-mb" class="nav-mb">
+    <ul class="nav-list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#about-section"> About me</a>
+      </li>
+      <li>
+        <a href="#skills-section">Skills </a>
+      </li>
+      <li>
+        <a href="#api">API</a>
+      </li>
+      <li>
+        <a href="#footer">Contacts</a>
+      </li>
+    </ul>
+    <b class="lang"><span style="color: #828282">RU</span> | ENG</b>
+  </div>
+  <header class="container">
+    <ul class="nav">
+      <li>Home</li>
+      <li>
+        <a href="#about-section"> About me</a>
+      </li>
+      <li>
+        <a href="#skills-section">Skills </a>
+      </li>
+      <li>
+        <a href="#api">API</a>
+      </li>
+      <li>
+        <a href="#footer">Contacts</a>
+      </li>
+    </ul>
+    <div class="bio">
+      <h1>
+        Cholpon <br />
+        Abdisukhanova
+        <img id="burger" class="burger-menu" src="./images/images/burger.png" alt="" />
+      </h1>
+      <div>
+        Fullstack developer <br />
+        20 years old, Bishkek
+      </div>
+      <b class="lang"><span style="color: #828282">RU</span> | EN</b>
+    </div>
+
+    <img src="./images/girl.jpg" alt="" class="main-banner" />
+    <img class="main-banner_mb" src="./images/girl.jpg" alt="" />
+  </header>
+  <section class="hello">
+    <div class="hello-box">
+      <form class='form'>
+        <input class='hello-input' type="text" placeholder='Type your name' />
+        <button class='hello-btn' type='submit'>OK</button>
+      </form>
+      <p class="hello-text"></p>
+    </div>
+  </section>
+  <section id="about-section" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About me</h2>
+      <p>
+        Hi, my name is Cholpon Abdisukhanova, i am a Frontend developer, Java Backend developer & Data scientist. I am
+        trying to hone my skills in Web development and i have core understanding in Java and Pyhton languages. Here
+        major skill i have.
+      </p>
+      <p>
+        I'm studying at courses "JAVA" in
+        PEAKSOFT HOUSE.
+      </p>
+      <p>Ready to implement excellent projects with wonderful people.</p>
+    </div>
+  </section>
+  <section id="api" class="fetch">
+    <h1 class="section-title">API</h1>
+    <div class="fetch-box">
+
+    </div>
+    <button class="fetch-btn" onclick="changeUsers()">
+      Change
+    </button>
+  </section>
+  <section id="skills-section" class="container skills-section">
+    <h2 class="section-title">Skills</h2>
+    <p>I work in such programming languages as</p>
+    <div class="tools">
+      <img src="./images/images/python.jpg" alt="Pyhton" />
+      <img src="./images/images/java-logo-vector-design-commercial-brand-trademark-118452997.jpg" alt="figma" />
+      <img src="./images/images/sql-icon.webp" alt="photoshop" />
+      <img src="./images/images/js.jpg" alt="adobe-effects" />
+    </div>
+  </section>
+  <section class="video">
+    <h1 class="section-title">
+      Watch a cartoon
+    </h1>
+    <div id="myCarousel" class="video-box">
+      <a data-fancybox="video-gallery" href="https://youtu.be/RJ6whMQPY6w" class="video-link">
+        <img src="./images/multiversus-tom-jerry-combos.jpg" width="350" height="250" class="video-img" />
+      </a>
+      <a data-fancybox="video-gallery" href="https://youtu.be/_ENiRpspMhw" class="video-link">
+        <img src="./images/winx.jpg" width="350" height="250" class="video-img" />
+      </a>
+      <a data-fancybox="video-gallery" href="https://youtu.be/yhBycPVRvaI" class="video-link">
+        <img src="./images/peppa pig.jpg" width="350" height="250" class="video-img" />
+      </a>
+    </div>
+  </section>
+  <footer id="footer" class="container">
+    <h2 class="section-title">Contacts</h2>
+    <p>
+      Want to know more or just chat? <br />
+      You are welcome!
+    </p>
+    <button>Send message</button>
+    <div>
+      <img src="./images/images/linkedin.png" alt="linkedin" />
+      <img src="./images/images/instagram.png" alt="instagram" />
+      <img src="./images/images/github.svg" alt="GitHub" />
+      <img src="./images/images/telegram.jpg" alt="telegram" />
+    </div>
+    <p class="sub-text">
+      Like me on <br />
+      LinkedIn, Instagram, GitHub, Telegram
+    </p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/hello.js"></script>
+  <script src="./js/fetch.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
