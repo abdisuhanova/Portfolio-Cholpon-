@@ -6,3 +6,4 @@ https://abdisuhanova.github.io/Portfolio-Cholpon-/
 MOBILE VERSIION
 
 ![image](https://user-images.githubusercontent.com/93474979/199551239-837ef6c0-ac78-4a26-a341-848c37db8568.png)
+
